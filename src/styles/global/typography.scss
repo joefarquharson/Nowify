@@ -5,7 +5,7 @@
 h1 {
   font-size: 2.5em;
   font-weight: var(--font-weight-heading);
-  letter-spacing: -0.75px;
+  letter-spacing: 0;
   margin: 0 0 var(--spacing-m) 0;
   word-break: break-word;
 }
@@ -13,7 +13,7 @@ h1 {
 h2 {
   font-size: 1.75em;
   font-weight: var(--font-weight-body);
-  letter-spacing: -0.25px;
+  letter-spacing: 0.25px;
   margin: 0;
   word-break: break-word;
 }
