@@ -25,7 +25,6 @@
   }
 
   &__image {
-    // box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, .3); //
     height: auto;
     width: 100%;
   }
@@ -55,12 +54,12 @@
 
   @media only screen and (min-width: 767px) {
     flex-flow: row nowrap;
-    padding: 5%;
+    padding: 10%;
 
     &__cover,
     &__details {
       width: 50%;
-      // max-width: 495px; //
+      max-width: 495px;
     }
 
     &__details {
