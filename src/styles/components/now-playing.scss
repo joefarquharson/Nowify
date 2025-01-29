@@ -8,7 +8,7 @@
   background-color: var(--colour-background-now-playing);
   color: var(--color-text-primary);
   display: flex;
-  flex-flow: column wrap; // testing wrap vs nowrap //
+  flex-flow: column nowrap;
   height: 100%;
   padding: var(--spacing-l);
   width: 100%;
@@ -27,7 +27,6 @@
   &__image {
     // box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, .3); //
     height: auto;
-    // max-width: 90vw; //
     width: 100%;
   }
 
