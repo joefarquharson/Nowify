@@ -8,7 +8,7 @@
   background-color: var(--colour-background-now-playing);
   color: var(--color-text-primary);
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap; // testing wrap vs nowrap //
   height: 100%;
   padding: var(--spacing-l);
   width: 100%;
@@ -55,7 +55,7 @@
   }
 
   @media only screen and (min-width: 767px) {
-    flex-flow: row nowrap;
+    flex-flow: row wrap; // testing wrap vs nowrap //
     padding: 5%;
 
     &__cover,
