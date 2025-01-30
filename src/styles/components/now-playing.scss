@@ -37,21 +37,18 @@
 
   &__track {
     font-weight: var(--font-weight-heading);
-    // truncation stuff //
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* number of lines to show */
-            line-clamp: 2;
-    -webkit-box-orient: vertical;
   }
 
   &__artists {
     opacity: 0.8;
-    // truncation stuff //
+  }
+
+  &__track,
+  &__artists {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* number of lines to show */
-            line-clamp: 2;
+    -webkit-line-clamp: 3;
+            line-clamp: 3;
     -webkit-box-orient: vertical;
   }
 
