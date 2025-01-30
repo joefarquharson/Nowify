@@ -54,14 +54,6 @@
     justify-content: center;
   }
 
-  h2, p {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* number of lines to show */
-            line-clamp: 2;
-    -webkit-box-orient: vertical;
-  }
-
   @media only screen and (min-width: 639px) and (max-width: 766px){
     flex-flow: row nowrap;
     padding: 5%; // 10%; //
