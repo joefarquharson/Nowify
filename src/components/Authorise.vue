@@ -4,7 +4,7 @@
 
     <p class="authorise__copy">
       Nowify is a simple Spotify 'Now Playing' screen designed for the Raspberry
-      Pi. Login with Spotify below to get in mah Spotify.
+      Pi. Login with Spotify below to get in yr Spotify.
     </p>
 
     <button
