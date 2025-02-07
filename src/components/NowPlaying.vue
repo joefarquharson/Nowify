@@ -17,9 +17,11 @@
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
       </div>
     </div>
+    <!--
     <div v-else class="now-playing" :class="getNowPlayingClass()">
       <h1 class="now-playing__idle-heading">Ready for bangers</h1>
     </div>
+    -->
   </div>
 </template>
 
